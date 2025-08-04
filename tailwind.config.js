@@ -5,6 +5,7 @@ export default {
     "./resources/**/*.js",
     "./resources/**/*.vue",
     "./resources/js/**/*.{js,jsx,ts,tsx}",
+    "./resources/views/**/*.blade.php",
   ],
   theme: {
     extend: {
@@ -15,9 +16,8 @@ export default {
         light: "#f8fafc"
       },
       fontFamily: {
-        inter: ['poppins', 'sans-serif']
+        inter: ['Poppins', 'sans-serif']
       }
     },
   },
   plugins: [],
-} 
